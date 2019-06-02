@@ -2,10 +2,10 @@
 // @author craftwar
 // @name NightBot-AutoDJ song-name helper
 // @description Make craftwar's obs plugin (https://craftwarblog.blogspot.com/2018/01/obs-plugin-playing-song.html) able to get NightBot-AutoDJ song name.
-// @copyright 2018, craftwar (https://craftwarblog.blogspot.com/)
-// @license GPL-3.0+; https://www.gnu.org/licenses/gpl-3.0.txt
+// @copyright 2019, craftwar (https://craftwarblog.blogspot.com/)
+// @license GPL-3.0-or-later; https://www.gnu.org/licenses/gpl-3.0.txt
 // @homepageURL https://github.com/craftwar/userscript/tree/master/NightBot-song-name-helper
-// @version 0.1.20181230
+// @version 0.1.20190602
 // @namespace github.com.craftwar
 // @match https://beta.nightbot.tv/song_requests*
 // @grant none

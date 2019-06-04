@@ -5,7 +5,7 @@
 // @copyright 2019, craftwar (https://craftwarblog.blogspot.com/)
 // @license GPL-3.0-or-later; https://www.gnu.org/licenses/gpl-3.0.txt
 // @homepageURL https://github.com/craftwar/userscript/tree/master/Spotify-song-name-helper
-// @version 0.1.20190602
+// @version 0.1.20190604
 // @namespace github.com.craftwar
 // @match https://open.spotify.com/*
 // @grant none
@@ -21,6 +21,6 @@ const track_observer = new MutationObserver( ()=> {
 		document.title += " - YouTube";
 });
 
-const body_element = document.querySelector("body");
-track_observer.observe(body_element, {subtree:true, characterData:true});
+const title_element = document.querySelector("title");
+track_observer.observe(title_element, {childList: true});
 })();

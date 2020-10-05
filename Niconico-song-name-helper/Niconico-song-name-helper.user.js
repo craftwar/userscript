@@ -5,7 +5,7 @@
 // @copyright 2020, craftwar (https://craftwarblog.blogspot.com/)
 // @license GPL-3.0-or-later; https://www.gnu.org/licenses/gpl-3.0.txt
 // @homepageURL https://github.com/craftwar/userscript/tree/master/Spotify-song-name-helper
-// @version 0.1.20200520
+// @version 0.1.20201005
 // @namespace github.com.craftwar
 // @match https://www.nicovideo.jp/*
 // @grant none
@@ -15,6 +15,7 @@
 // inject-into content for Violentmonkey, default mode page is not working
 // ref: https://violentmonkey.github.io/2018/11/23/inject-into-context/
 
+'use strict';
 (() => {
 	const suffixes = [" - ニコニコ動画", " - Niconico Video", " - niconico動畫"];
 	const fake_suffix = " - YouTube";

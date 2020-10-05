@@ -5,14 +5,14 @@
 // @copyright 2020, craftwar (https://craftwarblog.blogspot.com/)
 // @license GPL-3.0-or-later; https://www.gnu.org/licenses/gpl-3.0.txt
 // @homepageURL https://github.com/craftwar/userscript/tree/master/MooBot-song-name-helper
-// @version 0.1.20200301
+// @version 0.1.20201005
 // @namespace github.com.craftwar
 // @match https://moo.bot/*
 // @grant none
 // @run-at document-end
 // ==/UserScript==
 
-
+'use strict';
 (() => {
 	const body_observer = new MutationObserver((record, observer) => {
 		const song_list = document.querySelector(".widget-song-requests-list");

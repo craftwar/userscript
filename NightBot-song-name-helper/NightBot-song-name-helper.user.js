@@ -8,6 +8,7 @@
 // @version 0.1.20201005
 // @namespace github.com.craftwar
 // @match https://beta.nightbot.tv/song_requests*
+// @match https://nightbot.tv/song_requests*
 // @grant none
 // @run-at document-end
 // ==/UserScript==

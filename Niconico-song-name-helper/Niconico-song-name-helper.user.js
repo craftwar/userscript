@@ -4,7 +4,7 @@
 // @description Make craftwar's obs plugin (https://craftwarblog.blogspot.com/2018/01/obs-plugin-playing-song.html) able to get song name.
 // @copyright 2020-2021, craftwar (https://craftwarblog.blogspot.com/)
 // @license GPL-3.0-or-later; https://www.gnu.org/licenses/gpl-3.0.txt
-// @homepageURL https://github.com/craftwar/userscript/tree/master/Spotify-song-name-helper
+// @homepageURL https://github.com/craftwar/userscript/tree/master/Niconico-song-name-helper
 // @version 0.1.20210120
 // @namespace github.com.craftwar
 // @match https://www.nicovideo.jp/*

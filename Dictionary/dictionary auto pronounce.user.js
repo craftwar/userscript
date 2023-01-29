@@ -9,25 +9,16 @@
 // @namespace github.com.craftwar
 // @match https://www.dictionary.com/*
 // @match https://tw.dictionary.search.yahoo.com/*
+// @match https://dictionary.cambridge.org/*
 // @grant none
 // @run-at document-idle
 // ==/UserScript==
 
 document.addEventListener('readystatechange', () => {
-  if (document.readyState == "complete")
-    document.getElementsByTagName('audio')[0].play();
+  if (document.readyState == "complete") {
+    if (window.location.href.startsWith("https://dictionary.cambridge.org/"))
+      document.getElementsByTagName('audio')[1].play();
+    else
+      document.getElementsByTagName('audio')[0].play();
+  }
 })
-
-// 'use strict';
-// (() => {
-//   const body_observer = new MutationObserver((record, observer) => {
-//     const element = document.getElementsByTagName('audio')
-//     if (element) {
-//       observer.disconnect();
-
-//       element[0].play()
-//     }
-//   });
-
-//   body_observer.observe(document.body, { subtree: true, childList: true });
-// })();
